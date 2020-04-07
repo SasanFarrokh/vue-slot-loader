@@ -1,11 +1,26 @@
 {
   "name": "vue-slot-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mochapack --webpack-config test/webpack.config.js --require test/setup.js test/**/*.spec.js"
+  },
   "dependencies": {
     "@vue/component-compiler-utils": "^3.1.0",
     "loader-utils": "^2.0.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "jest": {},
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.32",
+    "expect": "^25.2.7",
+    "jsdom": "^16.2.2",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^7.1.1",
+    "mochapack": "^1.1.13",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1",
+    "webpack": "^4.42.1"
   }
 }
