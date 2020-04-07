@@ -3,6 +3,10 @@
   "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SasanFarrokh/vue-slot-loader"
+  },
   "scripts": {
     "test": "mochapack --webpack-config test/webpack.config.js --require test/setup.js test/**/*.spec.js"
   },
@@ -11,7 +15,6 @@
     "loader-utils": "^2.0.0",
     "vue-template-compiler": "^2.6.11"
   },
-  "jest": {},
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.32",
     "expect": "^25.2.7",
