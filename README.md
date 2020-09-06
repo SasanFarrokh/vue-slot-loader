@@ -17,7 +17,7 @@ Use this loader to override parent component slot.
 Now in the child component you can:
 
 ```html
-<!-- Base component -->
+<!-- Child component -->
 <!-- Pass 'name' attribute to slot tag override named slots -->
 <slot>
   <span>Overrided content</span>
