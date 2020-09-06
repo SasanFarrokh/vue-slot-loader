@@ -6,7 +6,7 @@ Use this loader to override parent component slot.
 <!-- Base component -->
 <template>
   <div>
-    <h1>Base Component</h2>
+    <h1>Base Component</h1>
     <div>
       <slot></slot>
     </div>
